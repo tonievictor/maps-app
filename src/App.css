@@ -1,0 +1,46 @@
+.map-container {
+  height: 100vh;
+  width: 100vw;
+}
+
+.sidebar {
+  background-color: rgba(35, 55, 75, 0.9);
+  color: #fff;
+  padding: 6px 12px;
+  font-family: monospace;
+  z-index: 1;
+  position: absolute;
+  bottom: 1rem;
+  left: 0;
+  margin: 12px;
+  border-radius: 4px;
+}
+
+.contolbar {
+  background-color: rgba(35, 55, 75, 0.9);
+  color: #fff;
+  padding: 6px 12px;
+  font-family: monospace;
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 12px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.contolbar > button {
+  padding: 0.2rem 0.5rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contolbar > button:hover {
+  cursor: pointer;
+}
